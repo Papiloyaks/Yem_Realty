@@ -1,0 +1,30 @@
+input:focus {
+    outline: none;
+}
+/* p {
+    text-align: justify;
+} */
+/* h1 {
+    width: fit-content;
+} */
+.tandc::after {
+    position: absolute;
+    content: "";
+    background-color: #cb1e1e;
+    inset: 0;
+    left: 35%;
+    z-index: -1;
+    clip-path: polygon(30% 0,
+        100% 0%,
+        100% 100%,
+        20% 10%,
+        0% 70%
+    );
+
+}
+.myDiv div {
+    margin-top: 20px;
+}
+.myDiv div h1 {
+    font-weight: 600;
+}
