@@ -13,9 +13,9 @@ import Estates from "./pages/Estates";
 import JoinUs from "./pages/JoinUs";
 import AdminSignUp from "./pages/AdminSignUp";
 import Steppers from "./components/Steppers";
-import { useLocation } from 'react-router-dom'
-import { useDispatch, useSelector } from "react-redux";
-import './App.css'
+import { useLocation } from 'react-router-dom'          
+import { useDispatch, useSelector } from "react-redux"; 
+import './App.css'  
 import AdminSignIn from "./pages/AdminSignIn";
 import Contact from "./pages/Contact";
 import Client from "./pages/Client";
@@ -42,11 +42,11 @@ function App() {
 
   const [isOpen, setIsOpen] = useState(false)
   const [isSectionVisible, setSectionVisibility] = useState(false);
-
+      
   const location = useLocation()
   // const [isOpen, setIsOpen] = useState(false);
   const hiddenRoutes = ['/joinus','/admin','/client/signup','*/']
-  // const isHidden = hiddenRoutes.includes(location.pathname);
+  // const isHidden = hiddenRoutes.includes(location.pathname);/  c     
   const isHidden = hiddenRoutes.some(route => location.pathname.startsWith(route));
   
 
@@ -62,7 +62,7 @@ function App() {
     setSectionVisibility(!isSectionVisible)
   };
   
-
+      
   return (
     <>
     <div className="font-[Quicksand] lg:mx-0 sm:mx-0 " onClick={handleBodyClick}>
@@ -75,7 +75,7 @@ function App() {
           </li>
       </ul>}
     {/* <div><Upbar/></div> */}
-      <Routes>
+      <Routes>   
         <Route path="/"  element={<Landing/>}/>
         <Route path="/map" element={<Map/>}/>
         <Route path='/home' element={<Navigate to='/'/>}/>

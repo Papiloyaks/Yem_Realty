@@ -143,7 +143,7 @@ const Landing = () => {
                   <a className='bg-black text-white p-2 rounded' href="">Get Started</a>
                 </div>
                 <div>
-                  <img src={newImage} className='rounded w-full' width={400} alt=""/>
+                  <img src={newImage} className='rounded w-full' width={400} alv t=""/>
                 </div>
               </div>
               <img src={adult} width={80} className='rounded-full h-[80px] absolute top-[-10%] left-[49%]  border-4 border-red-500 hidden md:block' alt="" />

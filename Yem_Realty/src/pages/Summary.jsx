@@ -15,7 +15,7 @@ const Summary = () => {
   
   return (
     <>
-        <div className='lg:w-[300px] md:w-[300px] w-[250px] h-[340px]'>
+        <div className='lg:w-[300px] md:w-[300px] w-[250px] h-[400  px]'>
           <section>
             <h1 className='text-center font-bold my-5 text-red-700'>Summary</h1>
             <div>

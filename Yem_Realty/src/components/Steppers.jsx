@@ -23,7 +23,7 @@ const Steppers = ({currentIndex}) => {
     <>
        <div className='w-full border-4 min-h-screen bg-gray-200'>
             <section className=' lg:my-[25px] md:my-[20%] my-[30%] rounded-xl '>
-              <div className='flex flex-row  justify-center rounded-xl'>
+              <div className='flex flex-row  justify-center rounded-xl'>   
                 <div className='px-4 shadow-xl bg-white'>
                    {
                     steps.map((items,i)=>(
